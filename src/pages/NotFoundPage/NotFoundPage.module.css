@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  padding: 80px;
+}
+
+.linkBack {
+  display: flex;
+  justify-content: center;
+  min-width: 160px;
+  padding: 8px;
+  border: 2px solid #81691d;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #81691d;
+  transition: color 250ms ease, border-color 250ms ease;
+}
+
+.linkBack:hover {
+  color: #e7c865;
+  border-color: #e7c865;
+}

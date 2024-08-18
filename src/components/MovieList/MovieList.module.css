@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  padding: 0 120px;
+}
+
+.item {
+  position: relative;
+  padding-left: 16px;
+  transition: color 250ms ease, text-decoration 250ms ease;
+}
+
+.item:hover {
+  color: #21b637;
+  text-decoration: underline;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #8a7c7c;
+  transition: border-color 250ms ease, background-color 250ms ease;
+}
+
+.item:hover:before {
+  border-color: #21b637;
+  background-color: #21b637;
+}

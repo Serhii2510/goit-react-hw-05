@@ -1,0 +1,100 @@
+.btnBack {
+  display: flex;
+  justify-content: center;
+  max-width: 120px;
+  margin: 20px auto;
+  padding: 8px;
+  border: 2px solid #81691d;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #81691d;
+  transition: color 250ms ease, border-color 250ms ease;
+}
+
+.btnBack:hover {
+  color: #e7c865;
+  border-color: #e7c865;
+}
+
+.error {
+  text-align: center;
+  padding: 12px 0;
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.movieBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.mainBlock {
+  display: flex;
+  column-gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #15833a;
+}
+
+.img {
+  min-width: 400px;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  color: #15833a;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+}
+
+.addBlock {
+  padding: 32px;
+}
+
+.textAddBlock {
+  margin-bottom: 20px;
+}
+
+.addList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #15833a;
+}
+
+.addItem {
+  position: relative;
+  padding-left: 12px;
+  transition: color 250ms ease, text-decoration 250ms ease;
+}
+
+.addItem:hover {
+  color: #21b637;
+  text-decoration: underline;
+}
+
+.addItem::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #8a7c7c;
+  transition: border-color 250ms ease, background-color 250ms ease;
+}
+
+.addItem:hover:before {
+  border-color: #21b637;
+  background-color: #21b637;
+}

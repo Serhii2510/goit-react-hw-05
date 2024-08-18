@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  padding: 20px 60px;
+  background-color: #c6f0faec;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.link {
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 250ms ease, text-decoration 250ms ease;
+}
+
+.link:hover {
+  color: #f19705;
+  text-decoration: underline;
+}
+
+.active {
+  color: #11a224;
+}

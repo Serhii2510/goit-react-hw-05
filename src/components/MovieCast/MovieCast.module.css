@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 20px;
+  color: #3f8911;
+}
+
+.item {
+  display: flex;
+  column-gap: 12px;
+  font-size: 18px;
+}
+
+.imgBlock {
+  width: 200px;
+}
